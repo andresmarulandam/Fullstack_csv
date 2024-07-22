@@ -11,4 +11,12 @@ BACKEND:
    "dev": "cross-env PORT=3000 ts-node server.ts",
    "start": "cross-env PORT=3000 ts-node server.ts", }
 8. npm install --save-dev cross-env // cross-env es una herramienta que permite establecer variables de entorno de manera que funcione en Windows, macOS y Linux
-9.
+9. npm run dev // comprobar que funcione
+
+COMMIT
+
+1. npm install multer // Manejar subido de archivos
+2. npm install convert-csv-to-json
+3. npm install @types/multer -D
+
+4. Crear los dos endpoint en server.ts: post ("/api/files") get("/api/users")
