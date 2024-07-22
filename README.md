@@ -20,3 +20,12 @@ COMMIT
 3. npm install @types/multer -D
 
 4. Crear los dos endpoint en server.ts: post ("/api/files") get("/api/users")
+
+FRONTEND:
+
+1. volver a la raiz y npm create vite@latest
+2. cd frontend
+3. npm install
+4. Solo para este caso cambiar el puerto al 4000, en el package "scripts": {
+   "dev": "vite --port=4000",}
+5. Limpiar el frontend predeterminado por vite
