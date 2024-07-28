@@ -29,3 +29,14 @@ FRONTEND:
 4. Solo para este caso cambiar el puerto al 4000, en el package "scripts": {
    "dev": "vite --port=4000",}
 5. Limpiar el frontend predeterminado por vite
+
+---
+
+1. instalar sonner en el frontend para mostrar errores de forma amigable
+   npm install sonner
+
+---
+
+1. instalar useDebounce hook: Delay the execution of function or state update with useDebounce.
+   npm i @uidotdev/usehooks
+   The useDebounce hook is useful for delaying the execution of functions or state updates until a specified time period has passed without any further changes to the input value. This is especially useful in scenarios such as handling user input or triggering network requests, where it effectively reduces unnecessary computations and ensures that resource-intensive operations are only performed after a pause in the input activity.
